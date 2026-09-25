@@ -8,4 +8,5 @@ class SizeChartItem extends Model
 {
 // SizeChartItem
 protected $guarded = [];
-public function sizeChart() { return $this->belongsTo(SizeChart::class); }}
+public function sizeChart() { return $this->belongsTo(SizeChart::class); }
+}
